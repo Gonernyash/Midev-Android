@@ -32,7 +32,7 @@
 #### MVP: Model-View-Presenter
 Используется в большинстве наших приложений. Стоит уделить ей особое внимание
 #### MVVM: Model-View-ViewModel
-Сейчас довольно популярный подход к разработке. Планируем попробовать в новых проектах
+Сейчас довольно популярный подход к разработке. Планируем попробовать в новых проектах  
 [Статья на хабре](https://habr.com/ru/post/215605/)
 [Подробнее про MVP](https://learntutorials.net/ru/android/topic/4615/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-mvp)
 ### Структура Android-приложения
@@ -49,39 +49,9 @@
 - ImageView
 - Button
 - RecyclerView
-### Ресурсы
-Ресурсы приложения распологаются в каталоге res
-#### Strings
-Тут распологаются все текста, зашитые в приложение (Тоесть не приходящие с сервера)
-- Рекомендуется у компонентов, отображающих текст (Как например, TextView и Button), сам текст выноосить в strings.xml, а не писать его непосредственно в параметре компонента.
-#### Drawable
-Сюда входят все изображения, задействованные в приложении,
-а также background'ы для компонентов верстки (Например: фон для кнопки с закругленными углами)
-- Если изображение небольшое (Как, например иконки), то оно импортируется в формате SVG как Vector Asset.
-  ![Картинка](https://i.imgur.com/4a9TNkQ.png)
-  ![Картинка](https://i.imgur.com/Pq2HKEe.png)
-- Если изображение большое, то открываем Resource Manager и закидываем изображение с учетом всех основных типов [dencity](https://developer.android.com/training/multiscreen/screendensities#TaskProvideAltBmp) (Итого, должно получится 5 изображений)
-  ![Картинка](https://i.imgur.com/Xi83iKr.png)
-#### Colors
-Тут находятся цвета в формате HEX RGB(RGBA), используемые в приложении
-По аналогии со strings, рекомендуется выносить все цвета сюда, а в компонентах указывать ссылку на цвет
-#### Styles
-Тут находятся темы и стили для всего приложения. Они содержат общие параметры для компонетов верстки (Например, базовый внешний вид кнопки). Их использование упрощает верстку.
-[Подробнее](http://developer.alexanderklimov.ru/android/theme.php)
-При создании собственных стилей рекомендуется наследоваться от компонентов [Material Design](https://material.io/develop/android) или [AppCompat](https://habr.com/ru/post/241479/)
-Например:
-```
-<style name="RedButtonBorderless" parent="Widget.AppCompat.Button.Borderless">
-    <item name="android:background">@color/colorAccentPrimaryRed</item>
-</style>
-```
-#### Fonts
-Тут находятся шрифты
-#### Оптимизированная верстка
-[Подробнее](https://developer.android.com/training/improving-layouts)
 ### Экраны приложения
 - Что такое Activity
-- Что такое Fragment
+- Что такое Fragment  
 [Подробнее](https://medium.com/codex/activity-vs-fragment-in-android-d9595a79119)
 #### Концепция SPA(Single Page Aplication)
 В общих чертах: 
@@ -90,11 +60,11 @@
 ##### Лекции
 - [Лекция 1](https://www.youtube.com/watch?v=wcdqoTubPrU&list=PLrrjuVcsVZhhE_7f_KXr1TRi3vEr_J5RP&index=31&t=986s)
 ### Работа с сетью
-- Rest API
+- Rest API  
 [Подробнее](https://blog.postman.com/rest-api-examples/)
-- Протокол HTTP
+- Протокол HTTP  
 [Подробнее](https://habr.com/ru/post/215117/)
-- JSON
+- JSON  
 [Подробнее](https://habr.com/ru/post/554274/)
 ### Библиотеки
 - Moxy - реализация архитектуры MVP
