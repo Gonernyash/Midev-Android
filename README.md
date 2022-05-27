@@ -14,6 +14,8 @@
 - run
 - apply
 - also
+#### Дополнительно
+- Можно для практики порешать задачки на [CodeWars](https://www.codewars.com/kata/kotlin)(Для понимания базового синтаксиса будет достаточно выбрать сложность 8-5 kyu)
 ### Базовый ввод в разработку под Android
 #### Книги:
 - [Книга 1](https://vk.com/doc44301783_581713618?hash=wf5RyEZbp9VxSni5uiwx5VhMqIWFdEeDeAxy9JjJFB4&dl=SGz6Wx6DvjLIvVfbnICvMkcWAHYktZ6dFpuyIC6HbQo)
@@ -33,6 +35,7 @@
 Используется в большинстве наших приложений. Стоит уделить ей особое внимание
 #### MVVM: Model-View-ViewModel
 Сейчас довольно популярный подход к разработке. Планируем попробовать в новых проектах  
+#### Статьи
 [Статья на хабре](https://habr.com/ru/post/215605/)  
 [Подробнее про MVP](https://learntutorials.net/ru/android/topic/4615/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-mvp)
 ### Структура Android-приложения
@@ -63,7 +66,8 @@
 - Rest API  
 [Подробнее](https://blog.postman.com/rest-api-examples/)
 - Протокол HTTP  
-[Подробнее](https://habr.com/ru/post/215117/)
+[Статья](https://habr.com/ru/post/215117/)
+[Лекция](https://www.youtube.com/watch?v=HFt7Lm7hv1E&list=PLrCZzMib1e9qZwq95WVmGB-acnot5ka4a&index=6)
 - JSON  
 [Подробнее](https://habr.com/ru/post/554274/)
 ### Библиотеки
@@ -100,5 +104,3 @@
 Кнопка для добавления элемента прямо в ресайклере и элементы сеткой идут.
 Подсказка: Чекнуть свойство layoutManager у ресайклера, и что оно принимает.
 ![Задание 1.6](https://i.imgur.com/n2IWiji.jpg)
-
-
