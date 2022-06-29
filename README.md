@@ -51,7 +51,8 @@
 - TextView
 - ImageView
 - Button
-- RecyclerView
+- EditText
+- RecyclerView [Урок](https://www.youtube.com/watch?app=desktop&v=4pevVON0v-U&list=LL&index=2&t=848s)
 ### Экраны приложения
 - Что такое Activity
 - Что такое Fragment  
