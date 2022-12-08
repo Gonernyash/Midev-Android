@@ -30,11 +30,15 @@
 - Ознакомится со списком измений, вносимыми в каждой новой версии Android SDK, начиная с 21.
 ### Архитектура Android-приложений
 #### MVC: Model-View-Controller
-Устаревшая архитектура, но стоит мельком посмотреть, т.к. иногда попадается в старых проектах
+Устаревшая архитектура
 #### MVP: Model-View-Presenter
-Используется в большинстве наших приложений. Стоит уделить ей особое внимание
+Используется в большинстве наших приложений
 #### MVVM: Model-View-ViewModel
-Сейчас довольно популярный подход к разработке. Планируем попробовать в новых проектах  
+Сейчас довольно популярный подход к разработке. Планируем попробовать в новых проектах
+[Видик](https://www.youtube.com/watch?v=KeQWIu8bA-Y&list=PLeF3l86ZMVkLQbdRL6Ra4cr_cmPROj94y&index=7)
+#### MVI: Model-View-Intent
+MVVM на стеройдах (Самый новый и преспективный подход)
+[Видик](https://www.youtube.com/watch?v=xsXiC0BXUjI&list=PLeF3l86ZMVkLQbdRL6Ra4cr_cmPROj94y&index=13)
 #### Статьи
 [Статья на хабре](https://habr.com/ru/post/215605/)  
 [Подробнее про MVP](https://learntutorials.net/ru/android/topic/4615/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-mvp)
@@ -72,14 +76,21 @@
 - JSON  
 [Подробнее](https://habr.com/ru/post/554274/)
 ### Библиотеки
-- Moxy - реализация архитектуры MVP
+- Moxy - реализация архитектуры MVP([Статья](https://habr.com/ru/post/276189/))
 - Retrofit - запросы на сервер
 - Cicerone - роутинг в МП
 - Glide - Загрузка изображений
 - RxJava - ассинхронность в приложении (для запросов на сервер и т.д.)
 - Realm - локальная база данных (для кэширования данных в приложении).
+- Koin - Dependency Injection (Внедрение зависимостей)
 [Теория бд для тех кто в танке](https://es.1lib.mx/dl/478554/32401f) - читать только 1 и 2 главу (в pdf я не нашел, использовать [онлайн читалку](https://djvu.js.org/) djvu файлов).
 [Теория по NoSQL БД](https://sd.blackball.lv/library/NoSQL_DISTILLED_(2013).pdf), коей и  является Realm.
+### Clean Architecture
+- [Теория UseCases](https://www.youtube.com/watch?v=Ao3d1R1TCYc&list=PLeF3l86ZMVkLQbdRL6Ra4cr_cmPROj94y&index=1)
+- [Практика UseCases](https://www.youtube.com/watch?v=YQlQvqqsaJ0&list=PLeF3l86ZMVkLQbdRL6Ra4cr_cmPROj94y&index=2)
+- [Связь UseCases и Repository](https://www.youtube.com/watch?v=zt07bObIpSk&list=PLeF3l86ZMVkLQbdRL6Ra4cr_cmPROj94y&index=3)
+- [Модуди Clean Architecture](https://www.youtube.com/watch?v=rCkyU5lPAT8&list=PLeF3l86ZMVkLQbdRL6Ra4cr_cmPROj94y&index=5)
+- [Clean Architecture на Koin](https://www.youtube.com/watch?v=Mn8WwqbndGg&list=PLeF3l86ZMVkLQbdRL6Ra4cr_cmPROj94y&index=7)
 ### Дополнительно
 - Git и подход Git-flow(для коммандной разработки)
 ## Практика
