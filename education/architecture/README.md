@@ -1,14 +1,14 @@
 # Компоненты
-- [База]()
-- [Работа с сетью]()
-- [Dependency Injection]()
-- [Работа с БД]()
+- [База](https://github.com/Gonernyash/Midev-Android/tree/main/education/architecture/base)
+- [Работа с сетью](https://github.com/Gonernyash/Midev-Android/tree/main/education/architecture/network)
+- [Dependency Injection](https://github.com/Gonernyash/Midev-Android/tree/main/education/architecture/di)
+- [Работа с БД](https://github.com/Gonernyash/Midev-Android/tree/main/education/architecture/db)
 
 # Архитектура
 - [Статья-сравнение архитектур](https://habr.com/ru/post/215605/)
-- [MVP]()
-- [MVVM]()
-- [MVI]()
+- [MVP](https://github.com/Gonernyash/Midev-Android/tree/main/education/architecture/mvp)
+- [MVVM](https://github.com/Gonernyash/Midev-Android/tree/main/education/architecture/mvvm)
+- [MVI](https://github.com/Gonernyash/Midev-Android/tree/main/education/architecture/mvi)
 
 # Концепция Clean Architecture или как сделать так, чтобы приложение было поддерживаемым и тестируемым
 ## Лекции
