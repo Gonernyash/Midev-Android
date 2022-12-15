@@ -8,3 +8,6 @@
 
 ## Коммандная разработка
 - [Git](https://github.com/Gonernyash/Midev-Android/tree/main/education/git)
+
+## Практика
+- [Верстка](https://github.com/Gonernyash/Midev-Android/tree/main/education/tasks)
