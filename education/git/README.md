@@ -13,8 +13,8 @@ feature - это когда пользователь заметит разниц
 (example: feature/main-stories)
 
 #### task
-task - это какой-то рефакотринг или написание тестов, т.е. то что никак не затрагивает пользователя 
-example: task/update-retrofit-version
+task - это какой-то рефакотринг или написание тестов, т.е. то, что никак не затрагивает пользователя 
+(example: task/update-retrofit-version)
 
 #### fix или bug
    examples: fix/remove-extra-margin-from-cart, bug/remove-extra-margin-from-cart
