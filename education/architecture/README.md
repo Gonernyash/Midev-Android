@@ -1,0 +1,21 @@
+# Компоненты
+- [База]()
+- [Работа с сетью]()
+- [Dependency Injection]()
+- [Работа с БД]()
+
+# Архитектура
+- [Статья-сравнение архитектур](https://habr.com/ru/post/215605/)
+- [MVP]()
+- [MVVM]()
+- [MVI]()
+
+# Концепция Clean Architecture или как сделать так, чтобы приложение было поддерживаемым и тестируемым
+## Лекции
+- [Теория UseCases](https://www.youtube.com/watch?v=Ao3d1R1TCYc&list=PLeF3l86ZMVkLQbdRL6Ra4cr_cmPROj94y&index=1)
+- [Практика UseCases](https://www.youtube.com/watch?v=YQlQvqqsaJ0&list=PLeF3l86ZMVkLQbdRL6Ra4cr_cmPROj94y&index=2)
+- [Связь UseCases и Repository](https://www.youtube.com/watch?v=zt07bObIpSk&list=PLeF3l86ZMVkLQbdRL6Ra4cr_cmPROj94y&index=3)
+- [Модуди Clean Architecture](https://www.youtube.com/watch?v=rCkyU5lPAT8&list=PLeF3l86ZMVkLQbdRL6Ra4cr_cmPROj94y&index=5)
+- [Clean Architecture на Koin](https://www.youtube.com/watch?v=Mn8WwqbndGg&list=PLeF3l86ZMVkLQbdRL6Ra4cr_cmPROj94y&index=7)
+## Статьи
+- [Статья 1](https://habr.com/ru/company/mobileup/blog/335382/)
