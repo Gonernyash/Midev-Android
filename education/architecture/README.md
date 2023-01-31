@@ -19,3 +19,4 @@
 - [Clean Architecture на Koin](https://www.youtube.com/watch?v=Mn8WwqbndGg&list=PLeF3l86ZMVkLQbdRL6Ra4cr_cmPROj94y&index=7)
 ## Статьи
 - [Статья 1](https://habr.com/ru/company/mobileup/blog/335382/)
+- [Database model pattern](https://barbeau.medium.com/room-kotlin-flow-the-modern-android-architecture-for-location-aware-apps-9c110e12e31a)
